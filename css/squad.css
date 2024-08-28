@@ -1,0 +1,87 @@
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+  }
+  
+  .perfil:hover {
+    background-color: grey;
+    border-bottom: 5px solid #fff;
+    color: #fff;
+    transform: translateY(-7.5px);
+    transition: background-color 0.5s ease, transform 1s ease, border-bottom 0.5s ease 0.2s;
+  }
+  
+  .perfil {
+    background-color: #ffff;
+    padding: 0.2em 0.5em;
+    color: #222;
+    height: 15em;
+    width: 10em;
+    border-radius: 5px;
+    margin: 1.5em 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .perfil .pfp {
+    width: 50%;
+    border-radius: 100%;
+  }
+  
+  .texto {
+    margin: 1em 0em 0em 0em;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  .texto h1 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Retro Gaming';
+  }
+  
+  .logolink {
+    margin: 0.6em 0em 0em 0em;
+    width: 25%;
+  }
+  
+  .logolink img {
+    border-radius: 100%;
+    background-color: #ffff;
+  }
+  
+  .logolink .github-logo {
+    width: 100%;
+  }
+  
+
+  
+.titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #000000;
+  padding: 0rem 2rem;
+}
+
+
+.titulo h1{
+  margin-left: 100px;
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+
+.titulo h1 span{
+  color: #ff8100;
+}
+
+.titulo p{
+  margin-bottom: 2rem;
+  font-size: 1.5rem; 
+  line-height: 1.5;
+  margin-left: 100px;
+}

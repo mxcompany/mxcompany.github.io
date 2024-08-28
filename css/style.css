@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: ClearSans;
+}
+
+@font-face {
+    font-family: ClearSans;
+    src: url(../font/clear-sans/ClearSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Brittany;
+    src: url(../font/brittany_signature/BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: SeasonRegular;
+    src: url(../font/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf);
+}
+
+
+.interface{
+    max-width: 1280;
+    margin: 0 auto;
+}
+
+body{
+    background: url(../img/background.png) repeat-y fixed left;
+}
+
+/* ESTILO CABEÇALHO */
+
+.logo img{
+    
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    
+}
+
+
+header{
+    padding: 20px 8%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 150px;
+    transition: 2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-weight: larger;
+}
+
+header a:hover{
+    color: #ff8100;
+    transform: scale(10s);
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000000;
+    padding: 0rem 2rem;
+  }
+  
+  
+  .titulo h1{
+    margin-left: 100px;
+    margin-top: 0.5rem;
+    font-size: 5rem;
+  }
+  
+  .titulo h1 span{
+    color: #ff8100;
+  }
+  
+  .titulo p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem; 
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+
+/*posição enfeite lateral*/
+
+.posicao{
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #bd1700, #ff8100);
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+  }
+
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

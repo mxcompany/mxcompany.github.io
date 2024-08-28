@@ -1,0 +1,78 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pag1 img{
+    border: 1px solid #ff8100;
+}
+
+.pag1 img:hover{
+    cursor: pointer;
+}
+
+.background {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    margin-left: 105px;
+}
+
+.bottom {
+    width: 92.5vw;
+    height: 80vh;
+    background: linear-gradient(to left top, #ff8100 80%, transparent 20%);
+    padding-top: 50px;
+}
+
+.p{
+    font-size: large;
+}
+
+.org{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: 180px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.org2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 100px;
+    padding-top: 5px;
+}
+
+.posic{
+    display: flex;
+    justify-content: right;
+}
+
+.posic2{
+    display: flex;
+    justify-content: left;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+
+.posic3{
+    display: flex;
+    justify-content: right;
+    padding-left: 30px;
+}
+
+.posic4{
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+
+}
+
+
+
